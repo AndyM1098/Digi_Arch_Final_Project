@@ -78,7 +78,7 @@ class ship:
                  cargo: str,
                  ):
         self.MMSI = MMSI
-        self.date = ''.join(date.split("-"))[2:]
+        self.date = 
         self.IMO = re.sub("IMO", "", IMO)
         self.callsign = callSign
         self.length = len
